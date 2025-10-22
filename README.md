@@ -94,4 +94,5 @@ Frontend (examples):
 ## Authors
 
 - Garv Rahut [@Garv767]
+- Shashwat Parashar [@ShashwatParashar9]
 
