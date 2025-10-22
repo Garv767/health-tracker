@@ -1,0 +1,15 @@
+{
+  "name": "healthtracker-fullstack",
+  "version": "1.0.0",
+  "description": "HealthTracker Full Stack Application",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd ht-backend; .\\mvnw.cmd spring-boot:run -Dspring-boot.run.profiles=dev -DskipTests",
+    "dev:frontend": "cd ht-frontend; npm run dev",
+    "install:all": "cd ht-backend; mvnw.cmd clean install; cd ../ht-frontend; npm install",
+    "build:all": "cd ht-backend; mvnw.cmd clean package; cd ../ht-frontend; npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
