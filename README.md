@@ -93,8 +93,5 @@ Frontend (examples):
 
 ## Authors
 
-- Sourish Ghosh [@7sg56]
-- Ayush Kumar [@AyushOg18]
-- Ishaan Verma [@16Ishaan]
-- Adhikshit Kumar [@Adhikshit775]
+- Garv Rahut [@Garv767]
 
